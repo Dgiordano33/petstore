@@ -1,85 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php include ('inc/head.php') ?>
 
-		<!--  Meta  -->
-		<meta charset="UTF-8" />
-		<title>Petstore.SmartBear.com Checkout</title>
+<?php require ('inc/header.php') ?>
 
-	
 
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
-	
-	<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-	
-		<!--  Styles  -->
-		<link rel="stylesheet" href="/css/main.css">
-	
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Coda+Caption:800|Lobster|Monoton|Poppins:300,400,500,700" rel="stylesheet">
-
-</head>
 <body class="checkout">
-<header class="header-bg">
-		<div class="bg-light collapse" id="navbarHeader" style="">
-			<div class="search-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 offset-md-3 text-center">
-           		<form class="form-inline search-form">
-											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-											
-							</form>
-            </div>
-						<div class="col-sm-3 text-left">
-							<button class="btn btn-outline-success"  type="submit">Go</button>
-						</div>
-          </div>
-        </div>
-      </div>
-		</div>
-			<div class="container-fluid center ">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="main-header">
-							<div class="logo-area">
-								<a class="logo-link" href="/"><h1>PetStore</h1></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
-							<div class="main-navigation">
-								<div class="row">
-									<div class="col-md-1">
-										<a class="nav-link" href="/templates/pet_single.html">Pets</a>
-									</div>
-
-									<div class="col-md-1">
-										<a class="nav-link" href="/templates/checkout.html">Cart</a>
-									</div>
-
-									<div class="col-md-4 text-left">
-										<a class="nav-link" href="">About Us</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-1">
-							<div class="util-nav">
-								<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</header>
   <div class="container checkout-content">
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
@@ -257,33 +182,7 @@
         </div>
       </div>
 
-      <div class="container">
-	<div class="smartbear-background">
-		<div class="row align-items-center">
-			<div class="col-md-4">
-				<h2>Brought to you by SmartBear.</h2>
-			</div>
-			<div class="col-md-4">
-				<form>
- 					<div class="form-group">
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-						<small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
-					</div>
-				</form>
-			</div>
-			<div class="col-md-4 text-center">
-				<a class="btn nav-btn" href="">Visit SmartBear.com</a>
-			</div>
-		</div>
-	</div>
-</div>
-		
-		<footer class="footer">
-      <div class="container">
-        <span class="text-muted">This is a fictitious site for the purposes of learning software testing. You can find the repo here:</span>
-      </div>
-    </footer>
-    </div>
+<?php require ('/web/inc/footer.php') ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
