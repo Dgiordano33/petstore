@@ -1,8 +1,8 @@
 
 
-<?php include '/inc/head.php' ?>
+<?php include ('inc/head.php') ?>
 
-<?php include '/inc/header.php' ?>
+<?php require 'inc/header.php' ?>
 
 
 <body class="home">
