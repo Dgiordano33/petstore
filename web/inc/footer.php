@@ -19,8 +19,8 @@
 	</div>
 </div>
 		
-		<footer class="footer">
-      <div class="container">
+<footer class="footer">
+    <div class="container">
         <span class="text-muted">This is a fictitious site for the purposes of learning software testing. You can find the repo here:</span>
-      </div>
-    </footer>
+     </div>
+</footer>
