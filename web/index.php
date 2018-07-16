@@ -1,9 +1,8 @@
 
-<?php
-include '/web/inc/head.php';
 
-include '/web/inc/header.php';
-?>
+<?php include '/inc/head.php' ?>
+
+<?php include '/inc/header.php' ?>
 
 
 <body class="home">
@@ -153,9 +152,7 @@ include '/web/inc/header.php';
 -->
 
 	
-<?php
-include 'web/inc/footer.php';
-?>
+<?php include '/web/inc/footer.php' ?>
 
 				<!-- Scripts -->
 				<script src="scripts/index.js"></script>
