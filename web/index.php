@@ -152,7 +152,7 @@
 -->
 
 	
-<?php include '/web/inc/footer.php' ?>
+<?php include ('/web/inc/footer.php') ?>
 
 				<!-- Scripts -->
 				<script src="scripts/index.js"></script>
