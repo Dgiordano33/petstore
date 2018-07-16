@@ -2,7 +2,7 @@
 
 <?php include ('inc/head.php') ?>
 
-<?php require 'inc/header.php' ?>
+<?php require ('inc/header.php') ?>
 
 
 <body class="home">
@@ -152,7 +152,7 @@
 -->
 
 	
-<?php include ('/web/inc/footer.php') ?>
+<?php require ('/web/inc/footer.php') ?>
 
 				<!-- Scripts -->
 				<script src="scripts/index.js"></script>
