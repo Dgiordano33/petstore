@@ -1,8 +1,8 @@
 
 <?php
-include '/inc/head.inc';
+include '/web/inc/head.inc';
 
-include '/inc/header.inc';
+include '/web/inc/header.inc';
 ?>
 
 
@@ -154,7 +154,7 @@ include '/inc/header.inc';
 
 	
 <?php
-include '/inc/footer.inc';
+include 'web/inc/footer.inc';
 ?>
 
 				<!-- Scripts -->
