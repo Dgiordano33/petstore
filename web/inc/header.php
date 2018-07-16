@@ -29,11 +29,11 @@
 							<div class="main-navigation">
 								<div class="row">
 									<div class="col-md-1">
-										<a class="nav-link" href="/templates/pet_single.html">Pets</a>
+										<a class="nav-link" href="/templates/pet_single.php">Pets</a>
 									</div>
 
 									<div class="col-md-1">
-										<a class="nav-link" href="/templates/checkout.html">Cart</a>
+										<a class="nav-link" href="/templates/checkout.php">Cart</a>
 									</div>
 
 									<div class="col-md-4 text-left">
