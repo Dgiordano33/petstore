@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en">
 
 <?php include ('inc/head.php') ?>
 
@@ -123,39 +124,10 @@
 		</div>
 	</div>
 
+	<?php include ('/inc/footer.php') ?>
 
-
-	<!--<div class="container value-props">
-		<div class="row">
-				<div class="col-md-12">
-					<h3>We have the best pets!</h3>
-				</div>
-				<div class="col-md-4">
-					<div class="value-bubble">
-						<h4>Best Selection</h4>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="value-bubble">
-						<h4>Best Selection</h4>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="value-bubble">
-						<h4>Best Selection</h4>
-					</div>
-				</div>
-		</div>
-	</div>
--->
-
-	
-<?php include ('/inc/footer.php') ?>
-
-				<!-- Scripts -->
-				<script src="scripts/index.js"></script>
+	<!-- Scripts -->
+	<script src="scripts/index.js"></script>
 </body>
 
 </html>
