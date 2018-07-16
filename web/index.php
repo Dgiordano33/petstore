@@ -1,7 +1,8 @@
 
 <?php
-require '/inc/head.inc';
-require '/inc/header.inc';
+include '/inc/head.inc';
+
+include '/inc/header.inc';
 ?>
 
 
@@ -153,7 +154,7 @@ require '/inc/header.inc';
 
 	
 <?php
-require '/inc/footer.inc';
+include '/inc/footer.inc';
 ?>
 
 				<!-- Scripts -->
