@@ -23,11 +23,11 @@
 
 .header-bg {
     width: 100%;
-    background: #4c55a6;
-    background: -moz-linear-gradient(45deg, #4c55a6 0, #5163de 100%);
-    background: -webkit-linear-gradient(45deg, #4c55a6 0, #5163de 100%);
-    background: -o-linear-gradient(45deg, #4c55a6 0, #5163de 100%);
-    background: linear-gradient(45deg, #4c55a6 0, #5163de 100%);
+    background: #004269;
+    background: -moz-linear-gradient(45deg, #004269 0, #0079C1 100%);
+    background: -webkit-linear-gradient(45deg, #004269 0, #0079C1 100%);
+    background: -o-linear-gradient(45deg, #004269 0, #0079C1 100%);
+    background: linear-gradient(45deg, #004269 0, #0079C1 100%);
     padding: 20px 0;
 	text-align:center;
 }
@@ -37,9 +37,9 @@
     font-si0 1.25rem;
     line-height: 1;
     background-color: #fff;
-    border: 1px solid #4b54a6;
+    border: 1px solid #004269;
     border-radius: .25rem;
-    color: #4b54a6;
+    color: #004269;
 }
 
 .search-wrapper {
@@ -101,7 +101,7 @@ h2,h3,h4,h5,h6{
 }
 
 .btn-secondary{
-	color: #4B54A6
+	color: #004269;
 }
 
 .main-navigation {
@@ -187,12 +187,12 @@ h2,h3,h4,h5,h6{
 
 .smartbear-background {
     position: relative;
-    background: #4c55a6;
-    background: -moz-linear-gradient(left, #4c55a6 0, #5163de 100%);
-    background: -webkit-linear-gradient(left, #4c55a6 0, #5163de 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#4c55a6), to(#5163de));
-    background: -o-linear-gradient(left, #4c55a6 0, #5163de 100%);
-    background: linear-gradient(to right, #4c55a6 0, #5163de 100%);
+    background: #004269;
+    background: -moz-linear-gradient(left, #004269 0, #0079C1 100%);
+    background: -webkit-linear-gradient(left, #004269 0, #0079C1 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#004269), to(#0079C1));
+    background: -o-linear-gradient(left, #004269 0, #0079C1 100%);
+    background: linear-gradient(to right, #004269 0, #0079C1 100%);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -246,7 +246,7 @@ h2,h3,h4,h5,h6{
 /* Single Template */
 .pet-single {
     margin: 100px 50px;
-    border-bottom: 3px solid #4B54A6;
+    border-bottom: 3px solid #004269;
     padding: 100px 0;
 }
 
