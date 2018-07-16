@@ -21,7 +21,7 @@
 							<div class="hero-content">
 								<h2>Test Your Way To A Better Sidekick!</h2>
 								<h4>Come stop by and see Zach run around the savannah.</h4>
-								<a href="/templates/pet_single.php" class="btn btn-light hero-btn">See Zach</a>
+								<a href="/pet_single.php" class="btn btn-light hero-btn">See Zach</a>
 							</div>
 						</div>
 					</div>
@@ -152,7 +152,7 @@
 -->
 
 	
-<?php require ('/web/inc/footer.php') ?>
+<?php require ('/inc/footer.php') ?>
 
 				<!-- Scripts -->
 				<script src="scripts/index.js"></script>
